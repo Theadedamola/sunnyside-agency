@@ -65,7 +65,7 @@ nav ul li button a:hover{
 
 
 header{
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("images/desktop/image-header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -144,7 +144,7 @@ hr{
 }
 
 .graphic-design{
-    background-image: url("/images/desktop/image-graphic-design.jpg");
+    background-image: url("images/desktop/image-graphic-design.jpg");
     background-size: cover;
     height: 557px;
     text-align: center;
@@ -161,7 +161,7 @@ hr{
     margin: auto;
 }
 .photography{
-    background-image: url("/images/desktop/image-photography.jpg");
+    background-image: url("images/desktop/image-photography.jpg");
     background-size: cover;
     text-align: center;
     height: 557px;
@@ -318,7 +318,7 @@ footer > div li a{
         text-align: center;
     }
     header{
-        background-image: url("/images/mobile/image-header.jpg");
+        background-image: url("images/mobile/image-header.jpg");
         background-size: cover;
         background-position: center;
         padding-top: 80px;
