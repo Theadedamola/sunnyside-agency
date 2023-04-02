@@ -1,0 +1,535 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color: hsl(200, 100%, 62%);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: hsl(0, 0%, 100%);
+    font-size: 28px;
+    line-height: 80px;
+    margin: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+button{
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px 32px;
+    border: none;
+    border-radius: 80px;
+}
+button:hover{
+    background-color: hsla(0, 0%, 100%, 0.307);
+}
+nav ul li button a{
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Fraunces', serif;
+}
+nav ul li button a:hover{
+    color: hsl(0, 0%, 100%);
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    line-height: 90px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+header{
+    background-image: url("/Users/adedamolaalausa/Downloads/UX/Frontend/Web Dev/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 100px;
+    text-align: center;
+}
+header h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    line-height: 80px;
+    font-family: 'Fraunces', serif;
+}
+.fa-arrow-down-long{
+    font-size: 102px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 130px;
+}
+
+.transform-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.transform{
+    padding: 150px 50px 0 130px;
+}
+
+h2{
+    color: hsl(212, 27%, 19%);
+    width: 300px;
+    font-size: 32px;
+    margin-bottom: 24px;
+    font-family: 'Fraunces', serif;
+}
+p{
+    color: hsl(212, 27%, 19%);
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+}
+.transform-image{
+    width: 100%;
+    height: 100%;
+}
+.transform-image-m{
+    display: none;
+}
+.transform > a{
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-family: 'Fraunces', serif;
+}
+hr{
+    width: 32%;
+    height: 6px;
+    border: 0;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 20px;
+    margin-top: -7px;
+}
+
+.standout{
+    padding: 150px 70px 0 100px;
+}
+.standout > a{
+    color: hsl(212, 27%, 19%);
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-family: 'Fraunces', serif;
+}
+.standout > hr{
+    background-color: hsl(7, 99%, 70%);
+}
+
+.graphic-design{
+    background-image: url("/Users/adedamolaalausa/Downloads/UX/Frontend/Web Dev/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    height: 557px;
+    text-align: center;
+    padding: 350px 100px 0 100px;
+}
+.graphic-design h2{
+    color: hsl(167, 40%, 24%);
+    width: 100%;
+    margin: 20px auto;
+}
+.graphic-design p{
+    color: hsl(167, 40%, 24%);
+    width: 80%;
+    margin: auto;
+}
+.photography{
+    background-image: url("/Users/adedamolaalausa/Downloads/UX/Frontend/Web Dev/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 557px;
+    padding: 350px 100px 0 100px;
+}
+.photography h2{
+    color: hsl(198, 62%, 26%);
+    margin: 20px auto;
+}
+.photography p{
+    color: hsl(198, 62%, 26%);
+    width: 70%;
+    margin: auto;
+}
+
+
+section{
+    text-align: center;
+    padding: 100px 100px;
+}
+section h3{
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 100px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+}
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.testimonial{
+    text-align: center;
+}
+.profile-img{
+    width: 20%;
+    border-radius: 100%;
+    margin-bottom: 50px;
+}
+.testimonial p {
+    width: 80%;
+    margin: 0 auto 60px;
+    color: hsl(212, 27%, 19%);
+}
+.testimonial > .post-dsc{
+    font-size: 12px;
+    color: hsl(210, 4%, 67%);
+}
+
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: hsl(167, 54%, 69%);
+    padding: 50px 0 25px 0;
+}
+label.logo2{
+    color: hsl(167, 40%, 24%);
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.footer-link{
+    display: flex;
+    margin: 30px 30% 80px 36%;
+}
+footer > div li a{
+    margin-left: 50px;
+    color: hsl(167, 40%, 24%);
+}
+.attribution{
+    margin-top: 40px;
+}
+.attribution > a {
+    color: hsl(167, 40%, 24%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* responsiveness */
+
+
+@media (max-width: 1440px){
+    .fa-arrow-down-long{
+        margin-top: 170px;
+    }
+    .transform > p{
+        width: 80%;
+    }
+    .standout > p{
+        width: 80%;
+    }
+    .standout > h2{
+        width: 80%;
+    }
+    hr{
+        width: 28%;
+    }
+}
+
+
+@media (max-width: 1083px){
+    header{
+        background-position: center;
+    }
+    .fa-arrow-down-long{
+        margin-top: 140px;
+    }
+    .transform{
+        padding: 80px 100px 0 100px;
+    }
+    .transform > p{
+        width: 100%;
+    }
+    .standout{
+        padding: 80px 100px 0 100px;
+    }
+    .standout > p{
+        width: 100%;
+    }
+    .standout > h2{
+        width: 100%;
+    }
+    hr{
+        width: 36%;
+    }
+    .graphic-design{
+        background-position: center;
+    }
+    .graphic-design > p{
+        width: 100%;
+    }
+    .photography{
+        background-position: center;
+    }
+    .photography > p{
+        width: 100%;
+    }
+    .footer-link{
+        margin: 30px 30% 80px 33%;
+    }
+}
+
+@media (max-width: 826px) {
+    body{
+        text-align: center;
+    }
+    header{
+        background-image: url("/Users/adedamolaalausa/Downloads/UX/Frontend/Web Dev/sunnyside-agency-landing-page-main/images/mobile/image-header.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-top: 80px;
+        width: 100%;
+        height: 700px;
+        
+    }
+
+    .fa-arrow-down-long{
+        margin-top: 200px;
+    }
+    nav ul{
+        background-color: hsl(0, 0%, 100%);
+        margin: 0 35px 0 10px;
+        padding: 30px 0;
+        text-align: center;
+        width: 90%;
+        position: fixed;
+        right: 1000px;
+        transition: all .5s;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        right: 0;
+    }
+    nav ul li{
+        display: block;
+        line-height: 60px;
+    }
+    nav ul li a{
+        color: hsl(232, 10%, 55%);
+        font-weight: bold;
+    }
+    button{
+        background-color: hsl(51, 100%, 49%);
+    }
+    label.logo{
+        margin-left: 10px;
+        margin-right: 500px;
+    }
+    .checkbtn{
+        float: right;
+        line-height: 90px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    header h1{
+        width: 50%;
+        font-size: 42px;
+        line-height: 1.5;
+        margin: auto;
+    }
+
+
+    .transform-grid{
+        display: block;
+    }
+    .transform{
+        padding: 80px 20px 80px 20px;
+    }
+    .transform > a{
+        margin-left: 0;
+    }
+    .transform-image{
+        display: none;
+    }
+    .transform-image-m{
+        display: block;
+        width: 100%;
+    }
+    h2{
+        margin: auto;
+        margin-bottom: 24px;
+        width: 80%;
+    }
+    .transform, .standout > p{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .transform hr{
+        width: 28%;
+    }
+    hr{
+        margin: auto;
+        margin-top: -7px;
+        width: 16%;
+    }
+
+    .standout{
+        padding: 80px 20px 80px 20px;
+    }
+    .standout > a{
+        margin-left: 0;
+    }
+
+
+    .graphic-design{
+        background-position: center;
+        padding: 350px 20px 0 20px;
+    }
+    .graphic-design > p{
+        width: 70%;
+    }
+
+    .photography{
+        background-position: center;
+        padding: 350px 20px 0 20px;
+    }
+    .photography > p{
+        width: 70%;
+    }
+
+
+    section {
+        padding: 100px 20px;
+    }
+    section h3{
+        letter-spacing: 4px;
+    }
+
+    .img-grid{
+        grid-template-columns: 50% 50%;
+    }
+
+    .testimonial-grid{
+        display: block;
+    }
+
+    .footer-link{
+        margin: 30px 50% 80px 28%;
+    }
+}
+
+@media (max-width: 701px) {
+    label.logo{
+        margin-right: 300px;
+    }
+    header h1{
+        width: 50%;
+        font-size: 32px;
+        
+    }
+}
+@media (max-width: 501px) {
+    label.logo{
+        margin-right: 220px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    nav ul{
+        margin: 0 20px 0 20px;
+    }
+    header{
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+    header h1{
+        width: 100%;
+        font-size: 32px;
+        line-height: 1.5;
+        margin: auto;
+    }
+    label.logo{
+        margin-left: 0;
+        margin-right: 160px;
+    }
+    .fa-arrow-down-long{
+        margin-top: 90px;
+    }
+    hr{
+        width: 30%;
+    }
+    h2{
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    .transform, .standout > p{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .graphic-design > p{
+        width: 100%;
+    }
+    .photography > p{
+        width: 100%;
+    }
+
+    .footer-link{
+        margin: 30px 52% 80px 12%;
+    }
+}
+@media (max-width: 375px) {
+    label.logo{
+        margin-right: 130px;
+    }
+    .transform hr{
+        width: 37%;
+    }
+    hr{
+        width: 35%;
+    }
+    .footer-link{
+        margin: 30px 54% 80px 7%;
+    }
+}
